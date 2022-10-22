@@ -1,7 +1,11 @@
 let str="naman";
 bag="";
-for(let i=str.length-1; i<=0; i--){
+for(let i=str.length-1;i<=0;i--){
     bag+=str[i];
-
 }
-console.log(bag);
+if(bag==str){
+console.log("palindrom");
+}
+else{
+console.log("not palindrom");
+}
